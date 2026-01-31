@@ -54,7 +54,7 @@ function App() {
     
     try {
       // Hacemos la petición post a fastAPI
-      const respuesta = await axios.post('http://127.0.0.1:8000/simulate', {
+      const respuesta = await axios.post('https://creditsim-publico.onrender.com/simulate', {
         monto: formulario.monto,
         tasa_anual: formulario.tasa_anual,
         plazo_meses: formulario.plazo_meses
