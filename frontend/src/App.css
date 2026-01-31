@@ -1,0 +1,94 @@
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f4f9;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 20px;
+}
+
+.contenedor-principal {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  width: 100%;
+  max-width: 800px;
+  text-align: center;
+}
+
+h1 { color: #2c3e50; }
+
+.formulario {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.grupo-input {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+label {
+  font-size: 0.9rem;
+  font-weight: bold;
+  color: #555;
+  margin-bottom: 5px;
+}
+
+input {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 1rem;
+  width: 150px;
+}
+
+.boton-calcular {
+  background-color: #27ae60;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 23px; 
+  transition: background 0.3s;
+}
+
+.boton-calcular:hover { background-color: #219150; }
+.boton-calcular:disabled { background-color: #ccc; }
+
+.tabla-contenedor {
+  overflow-x: auto;
+  margin-top: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+th, td {
+  padding: 12px;
+  border-bottom: 1px solid #ddd;
+  text-align: right;
+}
+
+th {
+  background-color: #2c3e50;
+  color: white;
+}
+td {
+  color: #333333; 
+}
+
+tr:hover { background-color: #f1f1f1; }
+
+.mensaje-vacio { color: #777; font-style: italic; }

@@ -1,0 +1,10 @@
+# Archivos que no quiero
+__pycache__/
+*.py[cod]
+venv/
+*.db
+
+# Archivos de node que no quiero
+node_modules/
+dist/
+.env
